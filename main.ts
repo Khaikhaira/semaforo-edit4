@@ -1,5 +1,5 @@
 basic.forever(function () {
-    pins.digitalWritePin(DigitalPin.P0, 0)
+    pins.digitalWritePin(DigitalPin.P0, 1)
     basic.showIcon(IconNames.No)
     basic.pause(500)
     basic.showNumber(15)
